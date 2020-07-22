@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CurrencyCellID" rowHeight="55" id="KGk-i7-Jjw" customClass="CurrencyCell" customModule="NodaWallet" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="321" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="321" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bitcoin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kbx-om-7ZL">
+                        <rect key="frame" x="44" y="13.5" width="44.5" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        </variation>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n9K-xU-iSO">
+                        <rect key="frame" x="284" y="11" width="22" height="22"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vhZ-JA-Hgd">
+                                <rect key="frame" x="3.5" y="3.5" width="15" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="15" id="KRO-tA-VEn"/>
+                                    <constraint firstAttribute="height" constant="15" id="V2E-3Z-dXI"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="vhZ-JA-Hgd" firstAttribute="centerX" secondItem="n9K-xU-iSO" secondAttribute="centerX" id="0AD-9r-WzU"/>
+                            <constraint firstItem="vhZ-JA-Hgd" firstAttribute="centerY" secondItem="n9K-xU-iSO" secondAttribute="centerY" id="58E-5n-PTe"/>
+                            <constraint firstAttribute="height" constant="22" id="apa-Tm-s0P"/>
+                            <constraint firstAttribute="width" constant="22" id="d1r-xm-fhe"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="11"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" red="0.96470588239999999" green="0.62352941179999999" blue="0.21176470589999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5t2-Yi-UV2">
+                        <rect key="frame" x="8" y="8" width="28" height="28"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="28" id="DVS-eY-ZbS"/>
+                            <constraint firstAttribute="width" constant="28" id="xvG-3z-7zD"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="5t2-Yi-UV2" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="MSo-RC-6W0"/>
+                    <constraint firstAttribute="trailing" secondItem="n9K-xU-iSO" secondAttribute="trailing" constant="15" id="S2V-VM-Wed"/>
+                    <constraint firstItem="5t2-Yi-UV2" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="ZGH-7a-c7h"/>
+                    <constraint firstItem="Kbx-om-7ZL" firstAttribute="centerY" secondItem="5t2-Yi-UV2" secondAttribute="centerY" id="iDs-kI-kDK"/>
+                    <constraint firstItem="n9K-xU-iSO" firstAttribute="centerY" secondItem="Kbx-om-7ZL" secondAttribute="centerY" id="juL-a5-LRh"/>
+                    <constraint firstItem="Kbx-om-7ZL" firstAttribute="leading" secondItem="5t2-Yi-UV2" secondAttribute="trailing" constant="8" id="mor-lY-XRr"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="countryImage" destination="5t2-Yi-UV2" id="UkW-a1-rH4"/>
+                <outlet property="currencyLabel" destination="Kbx-om-7ZL" id="IaS-2x-3tP"/>
+                <outlet property="selectedCurrencyImage" destination="vhZ-JA-Hgd" id="NhB-Oz-zz9"/>
+            </connections>
+            <point key="canvasLocation" x="77.599999999999994" y="148.42578710644679"/>
+        </tableViewCell>
+    </objects>
+</document>

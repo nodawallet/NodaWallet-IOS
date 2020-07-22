@@ -1,0 +1,6 @@
+framework module GTMBarcodeScanner {
+  umbrella header "GTMBarcodeScanner-umbrella.h"
+
+  export *
+  module * { export * }
+}

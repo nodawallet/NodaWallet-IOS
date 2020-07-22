@@ -1,0 +1,217 @@
+/* 
+  Localizable.strings
+  NodaWallet
+
+  n 10/03/20.
+  .
+*/
+"push_notification" = "Push-уведомления";
+"advanced_settings" = "Расширенные настройки";
+"main_wallet" = "Основной кошелёк";
+"multi_coin_wallet" = "Мультимонетный кошелёк";
+"Touch_id" = "Отпечаток пальца";
+"darkmode" = "Темный режим";
+"select_language" = "язык";
+"currency" = "Валюта";
+"browser" = "Браузер";
+"transaction" = "Транзакции";
+"twitter" = "твиттер";
+"telegram" = "телеграмма";
+"Write_down_the_secret_phrase" = "Запишите секретная фраза";
+"correct_order_content" = "Напишите или скопируйте эти слова в правильном порядке и сохраните их в надежном месте";
+
+//secretviewController start
+"Copy" = "скопировать";
+"Never_pass_the_phrase_restoring_to_anyone_keeping_her_reliable" = "Никогда не передавайте фразу востановления кому-либо, хранение ее надёжно!";
+"Further" = "Далее";
+//secretviewcontroller End
+
+//// tab bar Strat
+"Wallet" = "Кошелек";
+"Buy_Crypto" = "Покупка";
+"Purchase" = "Покупка";
+"Scanner" = "Сканер";
+"DEX" = "DEX";
+"Settings" = "Настройки";
+// tab bar
+"Tokens" = "Токены";
+"Collections" = "инвестиции";
+
+//alertNo_collections_found
+"No_collections_foundm" = "Коллекций не найдено";
+"Refresh" = "Обновить";
+"Cancel" = "Отменить";
+"Search" = "Поиск";
+"send" = "Отправить";
+"Receive" = "Получить";
+"Paste" = "Вставить";
+//"Amount" = "Amount";
+"Share" = "Поделиться";
+"amount" = "количество";
+"You_pay" = "Ты платишь";
+"You_are_getting" = "Вы получаете";
+"Balance" = "Баланс";
+"price" = "Цена";
+"number" = "Количество";
+"Total" = "Всего";
+//trade
+"Buy" = "Купить";
+"Call_Smart_Contract" = "Вызов Смарт контракта";
+"Address_copied" = "Адрес скопирован";
+"Consignee_address" = "Адрес получателя";
+"Crypto_purchase" = "крипты Покупка";
+
+//
+//
+////main wallet view
+"Main wallet" = "Основной кошелёк";
+"Multi_coin wallet" = "Мультимонетный кошелёк";
+"Name" = "Имя";
+"BACKUP_OPTIONS" = "ВАРИАНТЫ ДЛЯ РЕЗЕРВНОГО КОПИРОВАНИЯ";
+"Show_secret_phrase" = "Показать секреьную фразу";
+"lose_access_in_device" = "Если вы потеряете доступ к этому устройству, вашисредства будут утеряны, если";
+"OPEN_KEY_ACCOUNT" = "ОТКРЫТЫЕ КЛЮЧИ АККАУНТА";
+"Export_Public_Keys" = "Экспортировать открытые ключи";
+"public_keys_account_information" = "Бдьте осторожны с открытыми ключами вашего аккаунта (XPUB), когда вы даёте их третьему лицу, вы позволяете ему видеть всю информацию транзакций ";
+
+"you_send" = "Вы посылаете";
+"you_get" = "Вы получаете";
+"minimun_fees" = "5% сборы (минимум 10 долларов США) включены в цену";
+
+"exchange" = "Обмен";
+"stock_exchange" = "Биржа";
+
+//private and security
+"Private_and_Secure" = "Частный и безопасный";
+"Private_keys_will_never_leave_your_device" = "Закрытые ключи никогда не покинут ваше устройство.";
+
+"cerate_new_wallet" = "Создать новый кошелек";
+"I_already_have_wallet" = "У меня уже есть кошелек";
+
+"continue" = "Продолжать";
+"terms_wallet" = "Я понимаю, что если я потеряю слова восстановления, я не смогу получить доступ к своему кошельку";
+
+//Mnemonic screen
+"Verify_recovery_phrase" = "Проверьте фразу восстановления";
+"tap_the_words" = "Нажмите слова, чтобы поместить их рядом друг с другом в правильном порядке";
+"verify" = "проверить";
+
+//SEND CURRENCY
+"Recipient_Address" = "Адрес получателя";
+
+//Receive
+"set_amount" = "Установить сумму";
+
+//IMPORT
+"Import" = "Импортировать";
+"Phrase" = "Фраза";
+"private_key" = "Закрытый ключ";
+"Address" = "Адрес";
+"enter_phrase" = "Введите фразу";
+"enter_privatekey" = "Введите закрытый ключ";
+"enter_address" = "Введите адрес";
+"phrase_content" = "Обычно 12 слов, разделенных пробелами";
+"private_key_content" = "Обычно 64 буквенно-цифровых символа.";
+"address_content" = "Вы можете просматривать любой публичный адрес, не разглашая свой закрытый ключ. Это позволяет просматривать сальдо и транзакции, но не отправлять транзакции.";
+
+//TOKEN
+"Add_token" = "Добавить токен";
+"Add_custom_token" = "Добавить пользовательский токен";
+
+//Passcode
+"Enter_code" = "Введите код";
+"code_required_content" = "Код необходим для входа в Noda Wallet";
+"finger_print_login" = "Логин по отпечатку пальца";
+"Using_Passcode" = "Используя пароль";
+"touch_Sign_in" = "Войти в одно касание";
+"finger_print_content_one" = "Пожалуйста, положите палец на сканер, чтобы подтвердить свою личность";
+"finger_print_content_two" = "(Вход по отпечатку пальца делает ваше приложение намного быстрее. Ваше устройство должно иметь по крайней мере один отпечаток пальца, зарегистрированный в настройках устройства)";
+"enter_code_again" = "Пожалуйста, введите ваш пароль еще раз, чтобы подтвердить";
+
+//Transaction Details
+"transaction_details" = "Детали транзакции";
+"From" = "От";
+"To" = "в";
+"Hash" = "гашиш";
+"Gas_price" = "цена на газ";
+"nonce" = "данное время";
+"date" = "Дата";
+"Transaction_History" = "История транзакций";
+
+//EXPORT QRCODE
+"qrcode" = "QR код";
+"private_key_content_one" = "Этот QR-код содержит ваш закрытый ключ";
+"private_key_content_one" = "Никогда не передавайте свой закрытый ключ кому-либо, храните его надежно!!";
+
+"Show_Private_Key" = "Показать закрытый ключ";
+
+//NEWS
+"news" = "Новости";
+"faq" = "Часто задаваемые вопросы";
+
+"copied_to_clipboard" = "Скопировано в буфер обмена";
+"no_transaction_found" = "Транзакция не найдена";
+
+//Add Custom Token
+"network" = "сеть";
+"contract_address" = "Адрес контракта";
+"symbol" = "Символ";
+"decimal" = "Десятичный";
+
+//Wallet Connect
+"wallet_connect" = "кошелек подключиться";
+"connected_to" = "Подключен к";
+
+"Exchange_Success" = "Обмен обработан. Ваша транзакция будет завершена, как только сеть подтвердит это";
+
+//About
+"about" = "о приложении";
+"terms_and_conditions" = "Условия использования";
+"privacy_policy" = "политика конфиденциальности";
+
+"max" = "Максимум";
+"no_records_found" = "записей не найдено";
+
+"network_fee" = "сетевая плата";
+"max_total" = "Макс всего";
+"confirm" = "подтверждения";
+
+"done" = "Готово";
+
+"enter_name" = "Введите имя";
+"enter_symbol" = "Введите символ";
+"enter_decimal_from" = "Введите десятичное число от 0 до 32";
+"enter_valid_contract_address" = "Введите действующий адрес договора";
+
+"enter_your_amount" = "Пожалуйста, введите вашу сумму";
+"no_balance_in_wallet" = "Вам не хватает баланса в вашем кошельке";
+"should_greater_than" = "должно быть больше чем";
+"should_not_greater_than" = "не должно быть больше чем";
+
+"order_mismatching" = "Ваш заказ не соответствует. Пожалуйста, выберите правильный заказ.";
+
+"enter_receiver_address" = "Введите адрес получателя";
+"enter_valid_address" = "Введите действительный адрес";
+"please_enter_valid_amount" = "Пожалуйста, введите правильную сумму";
+"try_with_different_address" = "Вы не можете отправить на свой адрес. Попробуйте с другим адресом.";
+
+"amount_in" = "Сумма в ";
+
+//Transaction-Detail
+"sender" = "отправитель";
+"recipient" = "Получатель";
+"network_fee" = "Сетевой сбор";
+"transaction_time" = "Время транзакции";
+"more_details" = "Подробнее";
+
+"Please_select_box_to_continue" = "Пожалуйста, установите флажок, чтобы продолжить";
+
+//Wallet-Connect
+"Sign" = "Подписать";
+"eth_sign" = "ETH-Sign";
+"wallet_confirm" = "Подтверждение";
+"confirm_Transaction" = "Подтвердите транзакцию";
+"reject" = "отклонять";
+"bnb_sign" = "BNB-SIGN";
+
+"export_account_public_key" = "Экспорт открытых ключей аккаунта";

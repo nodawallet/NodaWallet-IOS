@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="DexCurrencyListCell" id="KGk-i7-Jjw" customClass="DexCurrencyListTableCell" customModule="NodaWallet" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Bitcoin" translatesAutoresizingMaskIntoConstraints="NO" id="T6H-fb-mEP">
+                        <rect key="frame" x="8" y="10" width="24" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="24" id="N5h-Ko-PSt"/>
+                            <constraint firstAttribute="height" constant="24" id="g6S-S8-HoQ"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Etherium" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TNl-bQ-WpG">
+                        <rect key="frame" x="40" y="13" width="63.5" height="18"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                        </variation>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hxm-Ia-o2Q">
+                        <rect key="frame" x="302" y="13" width="10" height="18"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                        </variation>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="T6H-fb-mEP" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="6uu-V9-edg"/>
+                    <constraint firstAttribute="trailing" secondItem="Hxm-Ia-o2Q" secondAttribute="trailing" constant="8" id="EGs-MT-DkL"/>
+                    <constraint firstItem="Hxm-Ia-o2Q" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="KOz-DY-pUz"/>
+                    <constraint firstItem="TNl-bQ-WpG" firstAttribute="leading" secondItem="T6H-fb-mEP" secondAttribute="trailing" constant="8" id="P5W-Em-iPJ"/>
+                    <constraint firstItem="T6H-fb-mEP" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="WH3-0w-bkH"/>
+                    <constraint firstItem="TNl-bQ-WpG" firstAttribute="centerY" secondItem="T6H-fb-mEP" secondAttribute="centerY" id="u6y-rD-T4z"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="currencyBalanceLabel" destination="Hxm-Ia-o2Q" id="cm7-tY-9rL"/>
+                <outlet property="currencyImageView" destination="T6H-fb-mEP" id="ADX-ki-d90"/>
+                <outlet property="currencyNameLabel" destination="TNl-bQ-WpG" id="7ty-gA-SZ3"/>
+            </connections>
+            <point key="canvasLocation" x="132.80000000000001" y="152.92353823088456"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Bitcoin" width="512" height="512"/>
+    </resources>
+</document>

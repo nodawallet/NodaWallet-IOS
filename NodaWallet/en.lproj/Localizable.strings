@@ -1,0 +1,217 @@
+/* 
+  Localizable.strings
+  NodaWallet
+
+  n 10/03/20.
+  .
+*/
+"push_notification" = "Push-Notification";
+"advanced_settings" = "Advanced settings";
+"main_wallet" = "Main Wallet";
+"multi_coin_wallet" = "Multi-coin wallet";
+"Touch_id" = "Touch id";
+"darkmode" = "Dark Mode";
+"select_language" = "Language";
+"currency" = "Currency";
+"browser" = "Browser";
+"transaction" = "Transactions";
+"twitter" = "Twitter";
+"telegram" = "Telegram";
+"Write_down_the_secret_phrase" = "Write down the secret phrase";
+"correct_order_content" = "Write or copy these words in the correct order and save them in a safe place.";
+
+//secretcontroller
+"Copy" = "Copy";
+"Never_pass_the_phrase_restoring_to_anyone_keeping_her_reliable" = "Never pass the phrase restoring to anyone, keeping her reliable!";
+"Further" = "FURTHER";
+//secretviewcontroller End
+
+//// tab bar Strat
+"Wallet" = "Wallet";
+"Buy_Crypto" = "Buy Crypto";
+"Purchase" = "Purchase";
+"Scanner" = "Scanner";
+"DEX" = "DEX";
+"Settings" = "Settings";
+"Tokens" = "Tokens";
+"Collections" = "Investments";
+
+
+////alert
+//"No_collections_found" = "Коллекций не найдено";
+"No_collections_foundm" = "No collections found";
+"Refresh" = "Refresh";
+"Cancel" = "Cancel";
+"Search" = "Search";
+"send" = "Send";
+"Receive" = "Receive";
+"Paste" = "Paste";
+//"Amount" = "Amount";
+"Share" = "Share";
+"amount" = "Amount";
+"Balance" = "Balance";
+"price" = "Price";
+"You_pay" = "You pay";
+"You_are_getting" = "You are getting";
+"number" = "Number";
+"Total" = "Total";
+//trade
+"Buy" = "Buy";
+"Call_Smart_Contract" = "Call Smart Contract";
+"Address_copied" = "Address copied";
+"Consignee_address" = "Consignee_address";
+"Crypto_purchase" = "Crypto purchase";
+//
+//
+////main wallet view
+"Main_wallet" = "Main wallet";
+"Multi_coin_wallet" = "Multi-coin wallet";
+"Name" = "Name";
+"BACKUP_OPTIONS" = "BACKUP OPTIONS";
+"Show_secret_phrase" = "Show secret phrase";
+"lose_access_in_device" = "If you lose access to this device, your funds will be lost if you do not backup!";
+"OPEN_KEY_ACCOUNT" = "OPEN KEY ACCOUNT";
+"Export_Public_Keys" = "Export Public Keys";
+"public_keys_account_information" = "Be careful with your public keys account (XPUB) when you give them to a third party, you let him see all the transaction information";
+
+"you_send" = "You send";
+"you_get" = "You get";
+"minimun_fees" = "5% fees (minimal 10 USD) are included in the price";
+
+"exchange" = "Exchange";
+"stock_exchange" = "Stock exchange";
+
+//private and security
+"Private_and_Secure" = "Private and Secure";
+"Private_keys_will_never_leave_your_device" = "Private keys will never leave your device.";
+
+"cerate_new_wallet" = "CREATE A NEW WALLET";
+"I_already_have_wallet" = "I already have a wallet";
+
+"continue" = "CONTINUE";
+"terms_wallet" = "I understand that if i lose my recovery words, i will not be able to access my wallet";
+
+//Mnemonic screen
+"Verify_recovery_phrase" = "Verify recovery phrase";
+"tap_the_words" = "Tap the words to put them next to each other in correct order.";
+"verify" = "Verify";
+
+//SEND CURRENCY
+"Recipient_Address" = "Recipient Address";
+
+//Receive
+"set_amount" = "Set Amount";
+
+//IMPORT
+"Import" = "Import";
+"Phrase" = "Phrase";
+"private_key" = "Private Key";
+"Address" = "Address";
+"enter_phrase" = "Enter phrase";
+"enter_privatekey" = "Enter Private Key";
+"enter_address" = "Enter Address";
+"phrase_content" = "Typically 12 words seperated by single spaces";
+"private_key_content" = "Typically 64 alphanumeric characters.";
+"address_content" = "You can watch any public address without divulging your private key.This lets you view balances and transactions, but not send transactions.";
+
+//TOKEN
+"Add_token" = "Add Token";
+"Add_custom_token" = "Add Custom Token";
+
+//Passcode and FingerPrint
+"Enter_code" = "Enter code";
+"code_required_content" = "Code is required to log in to Noda Wallet";
+"finger_print_login" = "Fingerprint Login";
+"Using_Passcode" = "Using Passcode";
+"touch_Sign_in" = "One-touch Sign in";
+"finger_print_content_one" = "Please place your finger on the scanner to verify your identity";
+"finger_print_content_two" = "(Finger print sign in make your app login much faster.Your device should have atleast one finger print registered in device settings)";
+"enter_code_again" = "Please enter your passcode again to confirm";
+
+//Transaction Details
+"transaction_details" = "Transaction Details";
+"From" = "From";
+"To" = "To";
+"Hash" = "Hash";
+"Gas_price" = "Gas Price";
+"nonce" = "Nonce";
+"date" = "Date";
+"Transaction_History" = "Transaction History";
+
+//EXPORT QRCODE
+"qrcode" = "QR Code";
+"private_key_content_one" = "This QR Code contains your private key";
+"private_key_content_one" = "Never share your private key with anyone, store it securely!.";
+
+"Show_Private_Key" = "Show Private Key";
+
+//NEWS
+"news" = "News";
+"faq" = "FAQ";
+
+"copied_to_clipboard" = "Copied to clipboard";
+"no_transaction_found" = "No Transaction Found";
+
+//Add Custom Token
+"network" = "Network";
+"contract_address" = "Contract Address";
+"symbol" = "Symbol";
+"decimal" = "Decimal";
+
+//Wallet Connect
+"wallet_connect" = "Wallet Connect";
+"connected_to" = "Connected To";
+
+"Exchange_Success" = "Exchange processed. Your transaction will be complete,once the network verify it";
+
+//About
+"about" = "About";
+"terms_and_conditions" = "Terms & Conditions";
+"privacy_policy" = "Privacy Policy";
+
+"max" = "Max";
+"no_records_found" = "No records found";
+
+"network_fee" = "Network Fee";
+"max_total" = "Max total";
+"confirm" = "CONFIRM";
+
+"done" = "Done";
+
+"enter_name" = "Enter Name";
+"enter_symbol" = "Enter symbol";
+"enter_decimal_from" = "Enter decimal from 0 to 32";
+"enter_valid_contract_address" = "Enter valid contract address";
+
+"enter_your_amount" = "Please enter your amount";
+"no_balance_in_wallet" = "You dont have enough balance in your wallet";
+"should_greater_than" = "should be greater than";
+"should_not_greater_than" = "should not be greater than";
+
+"order_mismatching" = "Your order is mismatching. Please select correct order.";
+
+"enter_receiver_address" = "Enter receiver address";
+"enter_valid_address" = "Enter valid address";
+"please_enter_valid_amount" = "Please enter a valid amount";
+"try_with_different_address" = "You cant sent to your own address. Try with different address.";
+
+"amount_in" = "Amount in ";
+
+//Transaction-Detail
+"sender" = "Sender";
+"recipient" = "Recipient";
+"network_fee" = "Network Fee";
+"transaction_time" = "Transaction time";
+"more_details" = "More Details";
+
+"Please_select_box_to_continue" = "Please select a check box to continue";
+
+//Wallet-Connect
+"Sign" = "Sign";
+"eth_sign" = "ETH-Sign";
+"wallet_confirm" = "Confirm";
+"confirm_Transaction" = "Confirm Transaction";
+"reject" = "Reject";
+"bnb_sign" = "BNB-SIGN";
+
+"export_account_public_key" = "Export Account Public Keys";

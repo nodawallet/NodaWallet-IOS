@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="CurrencyListTableCellID" id="KGk-i7-Jjw" customClass="CurrencyListTableCell" customModule="NodaWallet" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Bitcoin" translatesAutoresizingMaskIntoConstraints="NO" id="Jrz-N5-iLY">
+                        <rect key="frame" x="4" y="4" width="24" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="R8A-kq-754"/>
+                            <constraint firstAttribute="width" constant="24" id="gnP-Yl-foR"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bitcoin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B9q-bo-VoD">
+                        <rect key="frame" x="34" y="6" width="50" height="20"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                        </variation>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3.2548 $" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ix9-uM-w1z">
+                        <rect key="frame" x="34" y="29.5" width="52" height="16.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        </variation>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+ 3.14 %" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pQ9-Td-I3E">
+                        <rect key="frame" x="92" y="30.5" width="50" height="15"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="12"/>
+                        <color key="textColor" red="0.1843137255" green="0.76078431369999999" blue="0.3921568627" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                        </variation>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g84-u2-0Uu">
+                        <rect key="frame" x="306" y="6" width="10" height="20"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                        </variation>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$ 0.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2l0-fB-von">
+                        <rect key="frame" x="279" y="30.5" width="37" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        </variation>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="2l0-fB-von" firstAttribute="centerY" secondItem="pQ9-Td-I3E" secondAttribute="centerY" id="Bjh-mK-TI7"/>
+                    <constraint firstAttribute="trailing" secondItem="2l0-fB-von" secondAttribute="trailing" constant="4" id="GDf-Pc-8qa"/>
+                    <constraint firstAttribute="trailing" secondItem="g84-u2-0Uu" secondAttribute="trailing" constant="4" id="KdR-Ae-q20"/>
+                    <constraint firstItem="Ix9-uM-w1z" firstAttribute="top" secondItem="B9q-bo-VoD" secondAttribute="bottom" constant="3.5" id="PWS-0E-3zD"/>
+                    <constraint firstItem="g84-u2-0Uu" firstAttribute="centerY" secondItem="B9q-bo-VoD" secondAttribute="centerY" id="Q2h-ag-s7R"/>
+                    <constraint firstAttribute="bottom" secondItem="Ix9-uM-w1z" secondAttribute="bottom" constant="4" id="U5H-TC-OaQ"/>
+                    <constraint firstItem="Jrz-N5-iLY" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="4" id="fos-Rw-oaC"/>
+                    <constraint firstItem="Jrz-N5-iLY" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="4" id="gbI-y6-W2s"/>
+                    <constraint firstItem="pQ9-Td-I3E" firstAttribute="centerY" secondItem="Ix9-uM-w1z" secondAttribute="centerY" id="jFh-wB-njN"/>
+                    <constraint firstItem="pQ9-Td-I3E" firstAttribute="leading" secondItem="Ix9-uM-w1z" secondAttribute="trailing" constant="6" id="mt2-Bg-dCa"/>
+                    <constraint firstItem="Ix9-uM-w1z" firstAttribute="leading" secondItem="B9q-bo-VoD" secondAttribute="leading" id="nSv-ze-tW5"/>
+                    <constraint firstItem="B9q-bo-VoD" firstAttribute="leading" secondItem="Jrz-N5-iLY" secondAttribute="trailing" constant="6" id="tNU-hL-feV"/>
+                    <constraint firstItem="B9q-bo-VoD" firstAttribute="centerY" secondItem="Jrz-N5-iLY" secondAttribute="centerY" id="xAP-AT-dUU"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="currencyDollarLabel" destination="2l0-fB-von" id="Bn8-Ew-mrU"/>
+                <outlet property="currencyImageView" destination="Jrz-N5-iLY" id="7JY-3g-UIF"/>
+                <outlet property="currencyNameLabel" destination="B9q-bo-VoD" id="5hd-Oh-UOK"/>
+                <outlet property="currencyPercentLabel" destination="pQ9-Td-I3E" id="6eh-bn-o6F"/>
+                <outlet property="currencyValueLabel" destination="g84-u2-0Uu" id="Ovo-cI-D2r"/>
+                <outlet property="currencybalanceLabel" destination="Ix9-uM-w1z" id="iDV-qm-hHR"/>
+            </connections>
+            <point key="canvasLocation" x="132.80000000000001" y="151.12443778110946"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Bitcoin" width="512" height="512"/>
+    </resources>
+</document>

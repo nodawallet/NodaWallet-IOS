@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SmartContractAddressCell" rowHeight="69" id="KGk-i7-Jjw" customClass="SmartContractAddressCell" customModule="NodaWallet" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="337" height="70"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="337" height="70"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YXM-LH-K6N">
+                        <rect key="frame" x="0.0" y="0.0" width="337" height="70"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="File_Light" translatesAutoresizingMaskIntoConstraints="NO" id="NGu-SV-xso">
+                                <rect key="frame" x="15" y="22.5" width="25" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="25" id="0of-Pu-qDt"/>
+                                    <constraint firstAttribute="height" constant="25" id="43R-Dz-EmZ"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Call Smart Contract" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bm8-Ja-kqd">
+                                <rect key="frame" x="50" y="10" width="138.5" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="jut-EJ-Sme"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0,0 ETH" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z5f-rb-K30">
+                                <rect key="frame" x="275.5" y="14" width="51.5" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.50980392156862742" green="0.7803921568627451" blue="0.46666666666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Вызов Смарт контракта \n8x2B5634C42055806a...43c426E58258" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pkl-QY-tIy">
+                                <rect key="frame" x="50" y="39.5" width="277" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.52156862745098043" green="0.52156862745098043" blue="0.52156862745098043" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="NGu-SV-xso" firstAttribute="leading" secondItem="YXM-LH-K6N" secondAttribute="leading" constant="15" id="0Qa-tE-2O7"/>
+                            <constraint firstItem="bm8-Ja-kqd" firstAttribute="leading" secondItem="NGu-SV-xso" secondAttribute="trailing" constant="10" id="3W4-5n-Rf5"/>
+                            <constraint firstAttribute="trailing" secondItem="z5f-rb-K30" secondAttribute="trailing" constant="10" id="HmS-4u-s8A"/>
+                            <constraint firstItem="Pkl-QY-tIy" firstAttribute="top" secondItem="bm8-Ja-kqd" secondAttribute="bottom" constant="4.5" id="PSu-6Y-06i"/>
+                            <constraint firstAttribute="bottom" secondItem="Pkl-QY-tIy" secondAttribute="bottom" constant="10" id="bnp-UY-3KC"/>
+                            <constraint firstItem="Pkl-QY-tIy" firstAttribute="leading" secondItem="NGu-SV-xso" secondAttribute="trailing" constant="10" id="cKO-Tf-3JD"/>
+                            <constraint firstItem="bm8-Ja-kqd" firstAttribute="top" secondItem="YXM-LH-K6N" secondAttribute="top" constant="10" id="mb0-56-uzY"/>
+                            <constraint firstAttribute="trailing" secondItem="Pkl-QY-tIy" secondAttribute="trailing" constant="10" id="qza-LN-hKP"/>
+                            <constraint firstItem="NGu-SV-xso" firstAttribute="centerY" secondItem="YXM-LH-K6N" secondAttribute="centerY" id="xLu-BZ-Oun"/>
+                            <constraint firstItem="z5f-rb-K30" firstAttribute="centerY" secondItem="bm8-Ja-kqd" secondAttribute="centerY" id="xtA-bH-0Ux"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="YXM-LH-K6N" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="2m2-6a-pT5"/>
+                    <constraint firstItem="YXM-LH-K6N" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="5H9-8o-NNw"/>
+                    <constraint firstAttribute="trailing" secondItem="YXM-LH-K6N" secondAttribute="trailing" id="P5z-dc-cHO"/>
+                    <constraint firstAttribute="bottom" secondItem="YXM-LH-K6N" secondAttribute="bottom" id="h70-Mo-Mse"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="coinValueLabel" destination="z5f-rb-K30" id="o5Z-LN-Ylb"/>
+                <outlet property="fileImageView" destination="NGu-SV-xso" id="uDC-oJ-XbC"/>
+                <outlet property="smartContarctTitleLabel" destination="bm8-Ja-kqd" id="Sjx-3U-JH2"/>
+                <outlet property="smartContractAddressLabel" destination="Pkl-QY-tIy" id="mJf-cb-xcU"/>
+            </connections>
+            <point key="canvasLocation" x="95" y="173"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="File_Light" width="24" height="30"/>
+    </resources>
+</document>

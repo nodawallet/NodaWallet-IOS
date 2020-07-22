@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="NetworkListCellID" rowHeight="99" id="KGk-i7-Jjw" customClass="NetworkListCell" customModule="NodaWallet" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="358" height="55"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="358" height="55"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Etherium" translatesAutoresizingMaskIntoConstraints="NO" id="Z5t-j0-vuW">
+                        <rect key="frame" x="10" y="15" width="25" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="rHA-MT-k6U"/>
+                            <constraint firstAttribute="width" constant="25" id="t0R-7e-fNl"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ethereum" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="crh-MQ-xmQ">
+                        <rect key="frame" x="45" y="18" width="70" height="19.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                        </variation>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="crh-MQ-xmQ" firstAttribute="leading" secondItem="Z5t-j0-vuW" secondAttribute="trailing" constant="10" id="7Gy-bD-Ila"/>
+                    <constraint firstItem="Z5t-j0-vuW" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="Apk-5m-r6K"/>
+                    <constraint firstItem="Z5t-j0-vuW" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="cRa-eW-tkG"/>
+                    <constraint firstItem="crh-MQ-xmQ" firstAttribute="centerY" secondItem="Z5t-j0-vuW" secondAttribute="centerY" id="qQR-jU-Km2"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="coinNameLabel" destination="crh-MQ-xmQ" id="Dho-mj-aMn"/>
+                <outlet property="coinimageView" destination="Z5t-j0-vuW" id="gkD-tF-O4U"/>
+            </connections>
+            <point key="canvasLocation" x="163.19999999999999" y="179.46026986506749"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Etherium" width="24" height="24"/>
+    </resources>
+</document>

@@ -1,0 +1,297 @@
+
+/* Class = "UILabel"; text = "Show secret phrase"; ObjectID = "0hd-Vn-2gB"; */
+"0hd-Vn-2gB.text" = "Show secret phrase";
+
+/* Class = "UIButton"; normalTitle = "Refresh"; ObjectID = "16Y-zG-E1m"; */
+"16Y-zG-E1m.normalTitle" = "Refresh";
+
+/* Class = "UILabel"; text = "You get"; ObjectID = "2S8-Ue-ykX"; */
+"2S8-Ue-ykX.text" = "You get";
+
+/* Class = "UIButton"; normalTitle = "Buy ANKR"; ObjectID = "2eu-BO-yqf"; */
+"2eu-BO-yqf.normalTitle" = "Buy ANKR";
+
+/* Class = "UILabel"; text = "Copy"; ObjectID = "39e-hg-s17"; */
+"39e-hg-s17.text" = "Copy";
+
+/* Class = "UILabel"; text = "Total:"; ObjectID = "4IG-ig-hp2"; */
+"4IG-ig-hp2.text" = "Total:";
+
+/* Class = "UILabel"; text = "0BNB"; ObjectID = "4O6-Dw-7c3"; */
+"4O6-Dw-7c3.text" = "0BNB";
+
+/* Class = "UILabel"; text = "Touch id"; ObjectID = "4R2-dA-J19"; */
+"4R2-dA-J19.text" = "Touch id";
+
+/* Class = "UILabel"; text = "Twitter"; ObjectID = "4o1-Q3-txf"; */
+"4o1-Q3-txf.text" = "Twitter";
+
+/* Class = "UILabel"; text = "ANKR/BNB"; ObjectID = "5EM-DT-Zyl"; */
+"5EM-DT-Zyl.text" = "ANKR/BNB";
+
+/* Class = "UILabel"; text = "Dark Mode"; ObjectID = "5Ed-fg-Iam"; */
+"5Ed-fg-Iam.text" = "Dark Mode";
+
+/* Class = "UITextField"; placeholder = "Enter Price.."; ObjectID = "6qG-RI-dmy"; */
+"6qG-RI-dmy.placeholder" = "Enter Price..";
+
+/* Class = "UILabel"; text = "Write down the secret phrase"; ObjectID = "7Yp-Gs-p03"; */
+"7Yp-Gs-p03.text" = "Write down the secret phrase";
+
+/* Class = "UIButton"; normalTitle = "Further"; ObjectID = "7s7-zl-dzF"; */
+"7s7-zl-dzF.normalTitle" = "Further";
+
+/* Class = "UIButton"; normalTitle = "Further"; ObjectID = "8T8-h8-N0h"; */
+"8T8-h8-N0h.normalTitle" = "Further";
+
+/* Class = "UILabel"; text = "BNB price"; ObjectID = "8xY-6Y-Nom"; */
+"8xY-6Y-Nom.text" = "BNB price";
+
+/* Class = "UIButton"; normalTitle = "    French"; ObjectID = "9W6-nZ-sU6"; */
+"9W6-nZ-sU6.normalTitle" = "    French";
+
+/* Class = "UILabel"; text = "Browser"; ObjectID = "9vQ-VU-L7u"; */
+"9vQ-VU-L7u.text" = "Browser";
+
+/* Class = "UILabel"; text = "Multi Coin Wallet"; ObjectID = "AI6-Gx-8Hg"; */
+"AI6-Gx-8Hg.text" = "Multi Coin Wallet";
+
+/* Class = "UILabel"; text = "BTC"; ObjectID = "Ahy-d6-gjK"; */
+"Ahy-d6-gjK.text" = "BTC";
+
+/* Class = "UIButton"; normalTitle = "Buy"; ObjectID = "BDE-uU-xN9"; */
+"BDE-uU-xN9.normalTitle" = "Buy";
+
+/* Class = "UILabel"; text = "Submit"; ObjectID = "Bab-P5-6QY"; */
+"Bab-P5-6QY.text" = "Submit";
+
+/* Class = "UILabel"; text = "OPEN KEY ACCOUNT"; ObjectID = "CCo-kq-R94"; */
+"CCo-kq-R94.text" = "OPEN KEY ACCOUNT";
+
+/* Class = "UILabel"; text = "Никогда не передавайте фразу\\nвостановления кому-либо, хранение ее\\nнадёжно!"; ObjectID = "Csj-vL-quP"; */
+"Csj-vL-quP.text" = "Никогда не передавайте фразу\\nвостановления кому-либо, хранение ее\\nнадёжно!";
+
+/* Class = "UILabel"; text = "Price"; ObjectID = "DFx-l3-Eqk"; */
+"DFx-l3-Eqk.text" = "Price";
+
+/* Class = "UIButton"; normalTitle = "25%"; ObjectID = "Do3-oG-VZz"; */
+"Do3-oG-VZz.normalTitle" = "25%";
+
+/* Class = "UILabel"; text = "Transactions"; ObjectID = "EPR-2a-tcu"; */
+"EPR-2a-tcu.text" = "Transactions";
+
+/* Class = "UILabel"; text = "5% fees (minimal 10 USD) are included in the price"; ObjectID = "FB7-d0-lVm"; */
+"FB7-d0-lVm.text" = "5% fees (minimal 10 USD) are included in the price";
+
+/* Class = "UILabel"; text = "<\\noda>"; ObjectID = "Fea-Vo-0kZ"; */
+"Fea-Vo-0kZ.text" = "<\\noda>";
+
+/* Class = "UILabel"; text = "Push-Notification"; ObjectID = "GsF-I0-twO"; */
+"GsF-I0-twO.text" = "Push-Notification";
+
+/* Class = "UITextField"; placeholder = "Search.."; ObjectID = "H6P-BZ-YtM"; */
+"H6P-BZ-YtM.placeholder" = "Search..";
+
+/* Class = "UILabel"; text = "Main Wallet"; ObjectID = "Hdm-6A-h8H"; */
+"Hdm-6A-h8H.text" = "Main Wallet";
+
+/* Class = "UILabel"; text = "0.255455$"; ObjectID = "HhU-so-fC7"; */
+"HhU-so-fC7.text" = "0.255455$";
+
+/* Class = "UILabel"; text = "Facebook"; ObjectID = "IIu-uF-WhQ"; */
+"IIu-uF-WhQ.text" = "Facebook";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "IrJ-fp-BAz"; */
+"IrJ-fp-BAz.text" = "Name";
+
+/* Class = "UILabel"; text = "Settings"; ObjectID = "JAh-3D-lOy"; */
+"JAh-3D-lOy.text" = "Settings";
+
+/* Class = "UITextField"; text = "200000000.00000000"; ObjectID = "JFX-Cm-SFe"; */
+"JFX-Cm-SFe.text" = "200000000.00000000";
+
+/* Class = "UILabel"; text = "Advanced Settings"; ObjectID = "JgT-w1-RQp"; */
+"JgT-w1-RQp.text" = "Advanced Settings";
+
+/* Class = "UILabel"; text = "Bce"; ObjectID = "LO7-cV-kDe"; */
+"LO7-cV-kDe.text" = "Bce";
+
+/* Class = "UILabel"; text = "Crypto purchase"; ObjectID = "Loe-Vz-4eL"; */
+"Loe-Vz-4eL.text" = "Crypto purchase";
+
+/* Class = "UILabel"; text = "Main wallet"; ObjectID = "MUm-ap-VD7"; */
+"MUm-ap-VD7.text" = "Main wallet";
+
+/* Class = "UILabel"; text = "Open Orders"; ObjectID = "N6J-du-ggl"; */
+"N6J-du-ggl.text" = "Open Orders";
+
+/* Class = "UILabel"; text = "You send"; ObjectID = "NvH-va-bZP"; */
+"NvH-va-bZP.text" = "You send";
+
+/* Class = "UILabel"; text = "USD"; ObjectID = "OWY-MM-Sh6"; */
+"OWY-MM-Sh6.text" = "USD";
+
+/* Class = "UILabel"; text = "BackUp Option"; ObjectID = "OrR-18-tI8"; */
+"OrR-18-tI8.text" = "BackUp Option";
+
+/* Class = "UILabel"; text = "</noda>"; ObjectID = "R2G-Ok-HQw"; */
+"R2G-Ok-HQw.text" = "</noda>";
+
+/* Class = "UILabel"; text = "=10.10$ BTC"; ObjectID = "RNI-TH-HoE"; */
+"RNI-TH-HoE.text" = "=10.10$ BTC";
+
+/* Class = "UILabel"; text = "Currencies"; ObjectID = "RZ2-LF-uwq"; */
+"RZ2-LF-uwq.text" = "Currencies";
+
+/* Class = "UILabel"; text = "BTC"; ObjectID = "Rh7-7M-gvk"; */
+"Rh7-7M-gvk.text" = "BTC";
+
+/* Class = "UILabel"; text = "You get"; ObjectID = "THI-Z0-V2o"; */
+"THI-Z0-V2o.text" = "You get";
+
+/* Class = "UILabel"; text = "</noda>"; ObjectID = "TIM-AM-lkC"; */
+"TIM-AM-lkC.text" = "</noda>";
+
+/* Class = "UILabel"; text = "Select Language"; ObjectID = "UM7-cm-YUQ"; */
+"UM7-cm-YUQ.text" = "Select Language";
+
+/* Class = "UITextField"; text = "200000000.00000000"; ObjectID = "Vcw-AX-NZ0"; */
+"Vcw-AX-NZ0.text" = "200000000.00000000";
+
+/* Class = "UILabel"; text = "0,575475746 BTC"; ObjectID = "Vsb-v2-05H"; */
+"Vsb-v2-05H.text" = "0,575475746 BTC";
+
+/* Class = "UILabel"; text = "If you lose access to this device, your \\ n funds will be lost if you do not make a backup!"; ObjectID = "Vvn-xK-Iha"; */
+"Vvn-xK-Iha.text" = "If you lose access to this device, your \\ n funds will be lost if you do not make a backup!";
+
+/* Class = "UILabel"; text = "Export Public Keys"; ObjectID = "Y9g-c9-UXa"; */
+"Y9g-c9-UXa.text" = "Export Public Keys";
+
+/* Class = "UILabel"; text = "BNB price"; ObjectID = "Yjo-oB-7nU"; */
+"Yjo-oB-7nU.text" = "BNB price";
+
+/* Class = "UILabel"; text = "Noda"; ObjectID = "Z1c-Ds-KFU"; */
+"Z1c-Ds-KFU.text" = "Noda";
+
+/* Class = "UILabel"; text = "No Collection Found"; ObjectID = "ZLV-Zb-bw2"; */
+"ZLV-Zb-bw2.text" = "No Collection Found";
+
+/* Class = "UIButton"; normalTitle = "75%"; ObjectID = "Zl1-og-3Gi"; */
+"Zl1-og-3Gi.normalTitle" = "75%";
+
+/* Class = "UILabel"; text = "Telegram"; ObjectID = "aF8-tV-aFj"; */
+"aF8-tV-aFj.text" = "Telegram";
+
+/* Class = "UILabel"; text = "AKBNR / BNB"; ObjectID = "bP6-WX-HNi"; */
+"bP6-WX-HNi.text" = "AKBNR / BNB";
+
+/* Class = "UILabel"; text = "</noda>"; ObjectID = "biV-CJ-34e"; */
+"biV-CJ-34e.text" = "</noda>";
+
+/* Class = "UILabel"; text = "0BNB"; ObjectID = "btn-G8-B62"; */
+"btn-G8-B62.text" = "0BNB";
+
+/* Class = "UILabel"; text = "0.00 $"; ObjectID = "e5e-f4-qGo"; */
+"e5e-f4-qGo.text" = "0.00 $";
+
+/* Class = "UIButton"; normalTitle = " Cancel "; ObjectID = "eG2-fY-0T5"; */
+"eG2-fY-0T5.normalTitle" = " Cancel ";
+
+/* Class = "UILabel"; text = "USD"; ObjectID = "ePy-1r-KbL"; */
+"ePy-1r-KbL.text" = "USD";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "eWo-y3-kAv"; */
+"eWo-y3-kAv.text" = "Label";
+
+/* Class = "UITabBarItem"; title = "Settings"; ObjectID = "fvg-DH-Tfk"; */
+"fvg-DH-Tfk.title" = "Settings";
+
+/* Class = "UILabel"; text = "Crypto purchase"; ObjectID = "g1B-mL-Zwx"; */
+"g1B-mL-Zwx.text" = "Crypto purchase";
+
+/* Class = "UITabBarItem"; title = "Exchange"; ObjectID = "gOE-6h-1zC"; */
+"gOE-6h-1zC.title" = "Exchange";
+
+/* Class = "UITabBarItem"; title = "Scanner"; ObjectID = "hMg-r6-i4o"; */
+"hMg-r6-i4o.title" = "Scanner";
+
+/* Class = "UITabBarItem"; title = "Buy crypto"; ObjectID = "haO-rG-KqM"; */
+"haO-rG-KqM.title" = "Buy crypto";
+
+/* Class = "UIButton"; normalTitle = "    English"; ObjectID = "hxA-sW-wDT"; */
+"hxA-sW-wDT.normalTitle" = "    English";
+
+/* Class = "UIButton"; normalTitle = "Sell"; ObjectID = "hy7-QJ-AfN"; */
+"hy7-QJ-AfN.normalTitle" = "Sell";
+
+/* Class = "UILabel"; text = "Select Language"; ObjectID = "iOg-ni-eNY"; */
+"iOg-ni-eNY.text" = "Select Language";
+
+/* Class = "UIButton"; normalTitle = "Copy"; ObjectID = "jet-50-mCj"; */
+"jet-50-mCj.normalTitle" = "Copy";
+
+/* Class = "UIButton"; normalTitle = "Further"; ObjectID = "k8E-mH-wJB"; */
+"k8E-mH-wJB.normalTitle" = "Further";
+
+/* Class = "UILabel"; text = "0.0 akbnr 0.0 bnb"; ObjectID = "kcI-qW-cBO"; */
+"kcI-qW-cBO.text" = "0.0 akbnr 0.0 bnb";
+
+/* Class = "UITextField"; placeholder = "Enter Price.."; ObjectID = "li3-IV-maM"; */
+"li3-IV-maM.placeholder" = "Enter Price..";
+
+/* Class = "UIButton"; normalTitle = "100%"; ObjectID = "m2Z-cr-UuD"; */
+"m2Z-cr-UuD.normalTitle" = "100%";
+
+/* Class = "UILabel"; text = "08906 $  +3.14 %"; ObjectID = "mFk-fn-KIy"; */
+"mFk-fn-KIy.text" = "08906 $  +3.14 %";
+
+/* Class = "UITextField"; placeholder = "    Search"; ObjectID = "n3o-uL-e1z"; */
+"n3o-uL-e1z.placeholder" = "    Search";
+
+/* Class = "UILabel"; text = "Main wallet"; ObjectID = "nLa-Km-oyF"; */
+"nLa-Km-oyF.text" = "Main wallet";
+
+/* Class = "UILabel"; text = "Record or copy these words in the correct order and save them in a safe place"; ObjectID = "naV-rC-i8O"; */
+"naV-rC-i8O.text" = "Record or copy these words in the correct order and save them in a safe place";
+
+/* Class = "UILabel"; text = "Scan"; ObjectID = "nsf-VC-gDv"; */
+"nsf-VC-gDv.text" = "Scan";
+
+/* Class = "UILabel"; text = "Number"; ObjectID = "nyY-hC-EBM"; */
+"nyY-hC-EBM.text" = "Number";
+
+/* Class = "UITabBarItem"; title = "Wallet"; ObjectID = "ogV-fa-8wk"; */
+"ogV-fa-8wk.title" = "Wallet";
+
+/* Class = "UILabel"; text = "You send"; ObjectID = "pCM-h2-c8k"; */
+"pCM-h2-c8k.text" = "You send";
+
+/* Class = "UILabel"; text = "Main Wallet"; ObjectID = "qCZ-Bk-VHx"; */
+"qCZ-Bk-VHx.text" = "Main Wallet";
+
+/* Class = "UILabel"; text = "Be careful with the public keys of your \\ n account (XPUB) when you give them to a third party, \\ nyou let him see all the transaction information"; ObjectID = "rXm-4L-Hp7"; */
+"rXm-4L-Hp7.text" = "Be careful with the public keys of your \\ n account (XPUB) when you give them to a third party, \\ nyou let him see all the transaction information";
+
+/* Class = "UITextField"; text = "200000000.00000000"; ObjectID = "sXt-fF-4jn"; */
+"sXt-fF-4jn.text" = "200000000.00000000";
+
+/* Class = "UITabBarItem"; title = "Exchange"; ObjectID = "skW-jr-VEX"; */
+"skW-jr-VEX.title" = "Exchange";
+
+/* Class = "UILabel"; text = "</noda>"; ObjectID = "t3i-fV-guN"; */
+"t3i-fV-guN.text" = "</noda>";
+
+/* Class = "UITextField"; text = "200000000.00000000"; ObjectID = "tO6-UB-4JH"; */
+"tO6-UB-4JH.text" = "200000000.00000000";
+
+/* Class = "UIButton"; normalTitle = "50%"; ObjectID = "tZj-r2-uFn"; */
+"tZj-r2-uFn.normalTitle" = "50%";
+
+/* Class = "UILabel"; text = "Multi-coin wallet"; ObjectID = "uGC-Fe-mTo"; */
+"uGC-Fe-mTo.text" = "Multi-coin wallet";
+
+/* Class = "UILabel"; text = "Balance:"; ObjectID = "vFE-2w-n0f"; */
+"vFE-2w-n0f.text" = "Balance:";
+
+/* Class = "UILabel"; text = "5% fees (minimal 10 USD) are included in the price"; ObjectID = "wvk-l6-ecS"; */
+"wvk-l6-ecS.text" = "5% fees (minimal 10 USD) are included in the price";

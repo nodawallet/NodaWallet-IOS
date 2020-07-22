@@ -1,0 +1,16 @@
+/*
+ Localizable.strings
+ NodaWallet
+ 
+ n 10/03/20.
+ .
+ */
+"push_notification" = "Push-Notification";
+"advanced_settings" = "Advanced settings";
+"main_wallet" = "Main Wallet";
+"multi_coin_wallet" = "Multi-coin wallet";
+"currency" = "Currency";
+"browser" = "Browser";
+"transaction" = "Transactions";
+"Write_down_the_secret_phrase" = "Write down the secret phrase";
+"correct_order_content" = "Record or copy these words in the correct order and save them in a safe place.";
